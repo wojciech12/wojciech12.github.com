@@ -1,7 +1,3 @@
-# wojciech11.github.io
+# Homepage
 
-## Development
-
-```bash
-
-```
+wbarczynski.pl
