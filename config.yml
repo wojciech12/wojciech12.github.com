@@ -1,7 +1,6 @@
 baseURL: "https://wbarczynski.pl"
-title: "Everything is iteration ＆ experiment"
-paginate: 5
-theme: "PaperMod"
+title: "Everything is iteration ＆amp; experiment"
+theme: ["PaperMod"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -10,11 +9,15 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+# mainsections: ["posts", "papermod"]
 
 minify:
     disableXML: true
     # minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
 
 languages:
     en:
@@ -40,31 +43,6 @@ languages:
                   weight: 10
                 - name: About me
                   url: about/
-
-    # pl:
-    #     languageCode: "pl-PL"
-    #     weight: 2
-    #     title: "Wszystko jest iteracją ＆ eksperymentem"
-    #     taxonomies:
-    #       category: PLcategories
-    #       tag: PLtags
-    #       series: PLseries
-    #     menu:
-    #         main:
-    #             - name: Zajęcia
-    #               url: courses/
-    #               weight: 4
-    #             - name: Archiwum
-    #               url: archives
-    #               weight: 5
-    #             - name: Szukaj
-    #               url: search/
-    #               weight: 10
-    #             - name: Tags
-    #               url: tags/
-    #               weight: 10
-    #             - name: O mnie
-    #               url: about/
 outputs:
     home:
         - HTML
@@ -80,12 +58,14 @@ params:
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
-    disableSpecial1stPost: true
+     # disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
+    ShowAllPagesInArchive: true
+    ShowPageNums: true
     ShowToc: true
     # comments: false
     images: ["img/cover.jpeg"]
@@ -102,26 +82,26 @@ markup:
         # lineNos: true
         # style: monokai
 
-privacy:
-    vimeo:
-        disabled: true
-        simple: true
+# privacy:
+#     vimeo:
+#         disabled: true
+#         simple: true
 
-    twitter:
-        disabled: true
-        enableDNT: true
-        simple: true
+#     twitter:
+#         disabled: true
+#         enableDNT: true
+#         simple: true
 
-    instagram:
-        disabled: true
-        simple: true
+#     instagram:
+#         disabled: true
+#         simple: true
 
-    youtube:
-        disabled: true
-        privacyEnhanced: true
+#     youtube:
+#         disabled: true
+#         privacyEnhanced: true
 
 services:
     instagram:
         disableInlineCSS: true
-    twitter:
+    x:
         disableInlineCSS: true
