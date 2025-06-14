@@ -57,6 +57,7 @@ params:
     defaultTheme: auto
     # disableThemeToggle: true
     ShowShareButtons: true
+    ShareButtons: ["bluesky", "linkedin", "reddit"] 
     ShowReadingTime: true
      # disableSpecial1stPost: true
     displayFullLangName: true
