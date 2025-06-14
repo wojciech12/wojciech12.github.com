@@ -69,6 +69,19 @@ params:
     ShowToc: true
     # comments: false
     images: ["img/cover.jpeg"]
+    profileMode:
+        enabled: true
+        #title: "<Title>" # optional default will be site title
+        subtitle: "This is subtitle"
+        imageUrl: "img/INFI6471infi.jpg" # optional
+        #imageTitle: "<title of image as alt>" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+        - name: Archive
+          url: "/archive"
+        - name: Github
+          url: "https://github.com/wojciech12"
 
 markup:
     goldmark:
