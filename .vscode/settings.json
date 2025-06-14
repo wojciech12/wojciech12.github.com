@@ -1,0 +1,22 @@
+{
+  "github.copilot.chat.mcp.enabled": true,
+  "github.copilot.chat.mcp.configFile": "./.vscode/mcp.json",
+  "github.copilot.chat.mcp.servers": {
+    "context7": {
+      "enabled": true,
+      "description": "Context7 - Library documentation and code context"
+    },
+    "sequential-thinking": {
+      "enabled": true,
+      "description": "Sequential Thinking - Advanced problem-solving and analysis"
+    }
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "json": true,
+    "jsonc": true
+  }
+}
