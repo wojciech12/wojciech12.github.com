@@ -1,5 +1,5 @@
 baseURL: "https://wbarczynski.pl"
-title: "Everything is iteration ＆amp; experiment"
+title: "Everything is iteration ＆ experiment"
 theme: ["PaperMod"]
 
 enableInlineShortcodes: true
@@ -29,17 +29,17 @@ languages:
           series: series
         menu:
             main:
-                - name: Courses
-                  url: courses/
+                - name: Posts
+                  url: posts/
                   weight: 4
                 - name: Archive
-                  url: archives
+                  url: archives/
                   weight: 5
                 - name: Search
                   url: search/
                   weight: 10
-                - name: Tags
-                  url: tags/
+                - name: Talks
+                  url: https://github.com/wojciech12/talks/blob/master/README.md
                   weight: 10
                 - name: About me
                   url: about/
@@ -50,7 +50,7 @@ outputs:
         - JSON
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    description: "Wojciech Barczynski home page. Everything is iteration ＆ experiment."
     author: "WB"
     # author: ["Me", "You"] # multiple authors
 
@@ -72,16 +72,26 @@ params:
     profileMode:
         enabled: true
         #title: "<Title>" # optional default will be site title
-        subtitle: "This is subtitle"
+        subtitle: "Wojciech Barczynski home page"
         imageUrl: "img/INFI6471infi.jpg" # optional
         #imageTitle: "<title of image as alt>" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
-        buttons:
-        - name: Archive
-          url: "/archive"
-        - name: Github
-          url: "https://github.com/wojciech12"
+        imageWidth: 273  # custom size
+        imageHeight: 288 # custom size
+        # buttons:
+        # - name: Github
+        #   url: "https://github.com/wojciech12"
+        # - name: Blsky
+        #   url: "https://bsky.app/profile/wojciechb.bsky.social"
+        # - name: Linkedin
+        #   url: "https://www.linkedin.com/in/wojciechbarczynski/"
+        #   icon: linkedin
+    socialIcons: # optional
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/wojciechbarczynski/"
+    - name: "Github"
+      url: "https://github.com/wojciech12"
+    - name: "Bluesky"
+      url: "https://bsky.app/profile/wojciechb.bsky.social"
 
 markup:
     goldmark:
@@ -95,23 +105,20 @@ markup:
         # lineNos: true
         # style: monokai
 
-# privacy:
-#     vimeo:
-#         disabled: true
-#         simple: true
-
-#     twitter:
-#         disabled: true
-#         enableDNT: true
-#         simple: true
-
-#     instagram:
-#         disabled: true
-#         simple: true
-
-#     youtube:
-#         disabled: true
-#         privacyEnhanced: true
+privacy:
+    vimeo:
+        disabled: true
+        simple: true
+    x:
+        disabled: true
+        enableDNT: true
+        simple: true
+    instagram:
+        disabled: true
+        simple: true
+    youtube:
+        disabled: true
+        privacyEnhanced: true
 
 services:
     instagram:

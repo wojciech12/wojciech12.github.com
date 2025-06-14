@@ -1,3 +1,3 @@
 ---
-description: "Strona wykładowcy Wojciech Barczyńskiego"
+description: "Wojciech Barczynski's homepage"
 ---
